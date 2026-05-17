@@ -1,4 +1,4 @@
-# Backend — Open Resume Studio
+# Backend — Resume Studio
 
 FastAPI service for resume parsing, AI agents, Typst PDF compilation, and persistence.
 

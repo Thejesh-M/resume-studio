@@ -1,6 +1,6 @@
-# Frontend — Open Resume Studio
+# Frontend — Resume Studio
 
-Next.js (App Router) UI for Open Resume Studio.
+Next.js (App Router) UI for Resume Studio.
 
 > See the **[root README](../README.md)** for the project-wide quick start (`./run.sh`). This file covers frontend-only details.
 

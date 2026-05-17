@@ -1,4 +1,4 @@
-# Contributing to Open Resume Studio
+# Contributing to Resume Studio
 
 Thanks for considering a contribution. This is a local-first tool — your changes should keep that property: no required cloud services, no required accounts, runnable offline if the user picks Ollama.
 

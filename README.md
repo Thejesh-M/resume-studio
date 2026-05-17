@@ -1,4 +1,4 @@
-# Open Resume Studio
+# Resume Studio
 
 Local-first, open-source AI resume workspace. Build, edit, tailor, and write cover letters for resumes — all on your machine, with whichever LLM you choose.
 
@@ -8,25 +8,40 @@ Local-first, open-source AI resume workspace. Build, edit, tailor, and write cov
 
 ## Screenshots
 
-### Dashboard
-Workspace overview — your resumes, templates, and one-click actions.
-
-![Dashboard](demo_samples/dashboard.png)
-
-### AI Editor
-Live PDF preview side-by-side with an AI chat that rewrites bullets, summaries, and skills.
-
-![AI Editor](demo_samples/ai_editor.png)
-
-### Editing with AI
-Ask in natural language; the editor applies the change and re-renders the PDF in place.
-
-![Editing with AI](demo_samples/ai_editing.png)
-
-### Templates
-Typst-compiled previews across Academic, Classic, Modern, Two-Column, Creative, and Cover Letter styles.
-
-![Templates](demo_samples/templates.png)
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="demo_samples/dashboard.png">
+        <img src="demo_samples/dashboard.png" alt="Dashboard" />
+      </a>
+      <br />
+      <sub><b>Dashboard</b> — workspace overview with your resumes, templates, and one-click actions.</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="demo_samples/ai_editor.png">
+        <img src="demo_samples/ai_editor.png" alt="AI Editor" />
+      </a>
+      <br />
+      <sub><b>AI Editor</b> — live PDF preview side-by-side with an AI chat for bullets, summaries, and skills.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="demo_samples/ai_editing.png">
+        <img src="demo_samples/ai_editing.png" alt="Editing with AI" />
+      </a>
+      <br />
+      <sub><b>Editing with AI</b> — ask in natural language; edits land on the PDF in place.</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="demo_samples/templates.png">
+        <img src="demo_samples/templates.png" alt="Templates" />
+      </a>
+      <br />
+      <sub><b>Templates</b> — Academic, Classic, Modern, Two-Column, Creative, and Cover Letter styles.</sub>
+    </td>
+  </tr>
+</table>
 
 ## Stack
 

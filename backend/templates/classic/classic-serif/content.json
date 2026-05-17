@@ -1,0 +1,78 @@
+{
+  "contact": {
+    "name": "Thejesh M",
+    "email": "thejesh@example.com",
+    "phone": "+1 (555) 123-4567",
+    "linkedin": "linkedin.com/in/thejesh",
+    "location": "Austin, TX",
+    "website": "thejesh.dev"
+  },
+  "summary": "Full-stack engineer with 5+ years building scalable web applications and AI-powered products. Led development of SaaS platforms serving 50K+ users. Passionate about clean architecture and developer experience.",
+  "experience": [
+    {
+      "company": "TechCorp Inc.",
+      "title": "Senior Software Engineer",
+      "dates": "Jan 2022 — Present",
+      "bullets": [
+        "Designed and built a multi-agent AI pipeline processing 10K+ documents daily, reducing manual review time by 85%",
+        "Led migration from monolith to microservices on GCP (Cloud Run, Pub/Sub, Cloud SQL), improving deploy frequency from weekly to 20x/day",
+        "Architected a RAG-based internal knowledge search tool over 500K+ documents using Vertex AI and pgvector, cutting support resolution time by 40%",
+        "Owned end-to-end reliability of three core services (99.9% SLA); introduced distributed tracing with OpenTelemetry, reducing mean time-to-detect by 55%",
+        "Drove adoption of trunk-based development and feature flags, eliminating 3-week release cycles",
+        "Mentored team of 4 junior engineers, establishing code review standards and CI/CD best practices"
+      ]
+    },
+    {
+      "company": "StartupXYZ",
+      "title": "Software Engineer",
+      "dates": "Jun 2019 — Dec 2021",
+      "bullets": [
+        "Built real-time analytics dashboard using React, D3.js, and WebSockets serving 5K concurrent users",
+        "Implemented credit-based billing system with Stripe integration, generating $2M ARR",
+        "Reduced API response time by 60% through Redis caching and PostgreSQL query optimization",
+        "Designed multi-tenant data isolation layer, enabling enterprise tier launch and landing 8 Fortune-500 pilots",
+        "Migrated CI pipeline from Jenkins to GitHub Actions, cutting build times from 22 min to 7 min",
+        "Shipped mobile-responsive redesign that increased free-to-paid conversion rate by 18%"
+      ]
+    },
+    {
+      "company": "DevAgency",
+      "title": "Junior Developer",
+      "dates": "Aug 2017 — May 2019",
+      "bullets": [
+        "Developed 12+ client websites using React and Node.js with 98% client satisfaction rating",
+        "Created reusable component library adopted across 3 development teams, reducing page build time by 35%",
+        "Integrated third-party APIs (Salesforce, HubSpot, Twilio) for 5 enterprise clients, automating lead-capture workflows",
+        "Optimised Core Web Vitals scores across 8 sites, improving average Lighthouse performance score from 54 to 91"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Texas at Austin",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "dates": "2013 — 2017",
+      "gpa": "3.8"
+    }
+  ],
+  "skills": [
+    { "category": "Backend", "items": ["Python", "TypeScript", "Node.js", "FastAPI", "GraphQL"] },
+    { "category": "Frontend", "items": ["React", "Next.js", "Tailwind CSS", "D3.js", "WebSockets"] },
+    { "category": "Cloud & DevOps", "items": ["GCP", "AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"] },
+    { "category": "AI / ML", "items": ["LangChain", "OpenAI API", "HuggingFace", "RAG pipelines", "Vector DBs"] },
+    { "category": "Data & Infra", "items": ["PostgreSQL", "Redis", "BigQuery", "Pub/Sub", "Elasticsearch"] }
+  ],
+  "certifications": [
+    {
+      "name": "Google Cloud Professional Cloud Architect",
+      "issuer": "Google",
+      "date": "2023"
+    },
+    {
+      "name": "AWS Solutions Architect Associate",
+      "issuer": "Amazon",
+      "date": "2021"
+    }
+  ]
+}

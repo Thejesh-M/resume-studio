@@ -1,0 +1,22 @@
+# Optional: run Postgres locally instead of the default SQLite.
+# Set DATABASE_URL in backend/.env to use it:
+#   DATABASE_URL=postgresql+asyncpg://postgres:postgres@localhost:5432/open_resume_studio
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: open_resume_studio
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:

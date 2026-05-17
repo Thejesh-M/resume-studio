@@ -1,0 +1,187 @@
+{
+  "personal": {
+    "name": "Dr. Priya Venkataraman",
+    "titles": ["Associate Professor of Computational Biology"],
+    "location": { "city": "Boston", "state": "MA", "country": "USA" },
+    "contact": {
+      "email": "p.venkataraman@harvard.edu",
+      "phone": "+1-617-555-0247",
+      "website": "https://venkataraman-lab.harvard.edu"
+    },
+    "profiles": [
+      { "url": "https://github.com/priya-venk" },
+      { "url": "https://scholar.google.com/citations?user=pvLab" }
+    ]
+  },
+
+  "education": [
+    {
+      "institution": "MIT",
+      "location": "Cambridge, MA",
+      "degree": "Ph.D. in Computational Biology",
+      "start-date": "2008",
+      "end-date": "2013",
+      "advisors": ["Prof. Eric Lander", "Prof. Manolis Kellis"]
+    },
+    {
+      "institution": "Indian Institute of Technology Bombay",
+      "location": "Mumbai, India",
+      "degree": "B.Tech. in Bioinformatics",
+      "start-date": "2004",
+      "end-date": "2008"
+    }
+  ],
+
+  "experience": [
+    {
+      "institution": "Harvard Medical School",
+      "location": "Boston, MA",
+      "role": "Associate Professor",
+      "start-date": "2020",
+      "end-date": "Present"
+    },
+    {
+      "institution": "Broad Institute of MIT and Harvard",
+      "location": "Cambridge, MA",
+      "role": "Associate Member",
+      "start-date": "2020",
+      "end-date": "Present"
+    },
+    {
+      "institution": "Stanford University",
+      "location": "Stanford, CA",
+      "role": "Assistant Professor, Biomedical Data Science",
+      "start-date": "2015",
+      "end-date": "2020"
+    },
+    {
+      "institution": "UC Berkeley",
+      "location": "Berkeley, CA",
+      "role": "Postdoctoral Fellow",
+      "start-date": "2013",
+      "end-date": "2015",
+      "supervisors": ["Prof. Yun S. Song"]
+    }
+  ],
+
+  "publications": [
+    "Venkataraman P., Chen R., Okafor J., & Srivastava K. (2024). Single-cell multi-omics reveals chromatin remodelling dynamics during T-cell exhaustion. _Nature Methods_, *21*(3), 412--428. doi:10.1038/s41592-024-02178-x",
+    "Okafor J., Venkataraman P., & Liang H. (2023). DeepSplice: a graph neural network for predicting tissue-specific alternative splicing. _Genome Research_, *33*(9), 1541--1556. doi:10.1101/gr.277901.123",
+    "Venkataraman P. & Kellis M. (2022). Regulatory grammar of enhancer--promoter loops across 200 human cell types. _Cell_, *188*(4), 987--1004. doi:10.1016/j.cell.2022.09.031",
+    "Chen R., Park S., & Venkataraman P. (2021). Epigenomic imputation with variational autoencoders across missing tissue types. _Nature Biotechnology_, *39*(7), 838--851. doi:10.1038/s41587-021-00900-y",
+    "Venkataraman P., Song Y.S., & Durbin R. (2019). Bayesian nonparametric clustering of structural variants in long-read sequencing. _PLOS Genetics_, *15*(6), e1008271. doi:10.1371/journal.pgen.1008271"
+  ],
+
+  "awards": [
+    {
+      "title": "NIH Director's New Innovator Award",
+      "awarder": "National Institutes of Health",
+      "start-date": "2022"
+    },
+    {
+      "title": "ISCB Overton Prize",
+      "awarder": "International Society for Computational Biology",
+      "start-date": "2021"
+    },
+    {
+      "title": "Sloan Research Fellowship in Computational & Evolutionary Molecular Biology",
+      "awarder": "Alfred P. Sloan Foundation",
+      "start-date": "2018"
+    },
+    {
+      "title": "NSF CAREER Award",
+      "awarder": "National Science Foundation",
+      "start-date": "2017"
+    },
+    {
+      "title": "Outstanding Doctoral Thesis Award",
+      "awarder": "MIT Department of Biology",
+      "start-date": "2013"
+    }
+  ],
+
+  "grants": [
+    {
+      "title": "Decoding Cis-Regulatory Logic of Cell-Fate Transitions",
+      "institution": "NIH R01 HG012345",
+      "role": "Principal Investigator",
+      "start-date": "2023",
+      "end-date": "2028"
+    },
+    {
+      "title": "NIH Director's New Innovator Award DP2 HG011901",
+      "institution": "National Institutes of Health",
+      "role": "Principal Investigator",
+      "start-date": "2022",
+      "end-date": "2027"
+    },
+    {
+      "title": "Scalable Deep Learning for Single-Cell Multi-Omics Integration",
+      "institution": "NSF DBI-2145012",
+      "role": "Principal Investigator",
+      "start-date": "2021",
+      "end-date": "2024"
+    }
+  ],
+
+  "teaching": [
+    {
+      "institution": "Harvard Medical School",
+      "role": "BCMP 363: Computational Genomics (graduate)",
+      "start-date": "2021",
+      "end-date": "Present"
+    },
+    {
+      "institution": "Harvard Medical School",
+      "role": "BCMP 200: Foundations of Data Science in Biology",
+      "start-date": "2020",
+      "end-date": "Present"
+    },
+    {
+      "institution": "Stanford University",
+      "role": "BIODS 253: Algorithms for Genomics (graduate)",
+      "start-date": "2016",
+      "end-date": "2019"
+    }
+  ],
+
+  "service": [
+    "*Associate Editor* — _PLOS Computational Biology_, 2022--Present",
+    "*Program Committee* — RECOMB 2021, 2022, 2023, 2024; ISMB 2020--2024",
+    "*Reviewer* — _Nature Methods_, _Genome Research_, _Bioinformatics_, _Cell Systems_",
+    "*Faculty Search Committee* — HMS Department of Biomedical Informatics, 2023",
+    "*Organizing Committee* — RECOMB-Seq 2022 (Workshop Chair)"
+  ],
+
+  "research_interests": [
+    "Computational epigenomics and chromatin biology",
+    "Single-cell and spatial multi-omics integration",
+    "Machine learning for regulatory genomics",
+    "Structural variant detection in long-read sequencing",
+    "Causal inference in gene regulatory networks"
+  ],
+
+  "skills": [
+    "*Computational*: Python (PyTorch, JAX, scikit-learn), R (Bioconductor), C++, Snakemake, Nextflow",
+    "*Genomics*: ATAC-seq, ChIP-seq, Hi-C, 10x Genomics Multiome, PacBio/ONT long-read analysis",
+    "*Statistics*: Bayesian inference, variational autoencoders, graph neural networks, causal discovery"
+  ],
+
+  "references": [
+    {
+      "name": "Prof. Eric Lander",
+      "institution": "MIT / Broad Institute",
+      "role": "Ph.D. Advisor"
+    },
+    {
+      "name": "Prof. Manolis Kellis",
+      "institution": "MIT CSAIL",
+      "role": "Ph.D. Co-Advisor"
+    },
+    {
+      "name": "Prof. Yun S. Song",
+      "institution": "UC Berkeley",
+      "role": "Postdoctoral Mentor"
+    }
+  ]
+}

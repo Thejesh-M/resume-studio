@@ -1,0 +1,162 @@
+{
+  "contact": {
+    "name": "Marcus Rivera",
+    "title": "Senior Product Engineer",
+    "email": "marcus@example.com",
+    "phone": "+1-415-555-0182",
+    "location": "San Francisco, CA",
+    "linkedin": "marcusrivera",
+    "github": "marcusrivera-dev",
+    "address": ["340 Pine Street, Apt 12", "San Francisco, CA 94104"]
+  },
+  "keywords": [],
+  "summary": "Product-focused engineer with 8 years building developer tools and infrastructure at scale. Passionate about bridging the gap between platform engineering and product experience. Known for shipping reliable systems quickly and mentoring high-performing teams.",
+  "motivation": "Driven by the belief that great infrastructure should be invisible — enabling teams to ship confidently without thinking about the platform underneath. Seeking a role where I can combine deep technical work with cross-functional product leadership.",
+  "experience": [
+    {
+      "company": "Stripe",
+      "title": "Staff Software Engineer",
+      "dates": "Mar 2021 — Present",
+      "location": "San Francisco, CA",
+      "summary": "Developer Platform — Payments Infrastructure",
+      "bullets": [
+        "*Led* redesign of Stripe's webhook delivery system, reducing p99 latency by *62%* and achieving *99.999%* delivery reliability across 4B+ events/month",
+        "Architected a _zero-downtime_ migration of 40M merchant accounts to a new identity model over 18 months",
+        "Built internal load-testing framework used by *12 teams*, eliminating 3 production incidents per quarter on average",
+        "Grew and managed a sub-team of 5 engineers; 2 promoted to senior within 18 months"
+      ]
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Senior Software Engineer",
+      "dates": "Jun 2018 — Feb 2021",
+      "location": "San Francisco, CA",
+      "summary": "Workers Platform",
+      "bullets": [
+        "Core contributor to Cloudflare Workers runtime; implemented *Durable Objects* storage primitives adopted by 50K+ developers",
+        "Reduced cold-start time by *45%* via V8 snapshot optimization and pre-warming scheduler",
+        "Designed and shipped the Workers KV consistency model, enabling *strong reads* without sacrificing throughput"
+      ]
+    },
+    {
+      "company": "Heroku (Salesforce)",
+      "title": "Software Engineer",
+      "dates": "Aug 2016 — May 2018",
+      "location": "San Francisco, CA",
+      "bullets": [
+        "Maintained the Heroku Router — the critical HTTP layer serving *500M+ requests/day*",
+        "Migrated routing layer from Ruby to Go, improving throughput by *3.2×* with 40% lower memory usage",
+        "Contributed to open-source buildpack ecosystem; PRs merged into *6 official buildpacks*"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Carnegie Mellon University",
+      "degree": "Master of Science",
+      "field": "Computer Science",
+      "dates": "Aug 2014 — Dec 2016",
+      "location": "Pittsburgh, PA",
+      "gpa": "3.92/4.00",
+      "courses": [
+        "Distributed Systems", "Cloud Computing", "Compiler Design", "Advanced OS"
+      ]
+    },
+    {
+      "institution": "University of Texas at Austin",
+      "degree": "Bachelor of Science",
+      "field": "Electrical and Computer Engineering",
+      "dates": "Aug 2010 — May 2014",
+      "location": "Austin, TX",
+      "gpa": "3.78/4.00"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Stripe Maker Award",
+      "date": "2023",
+      "awarder": "Stripe Inc. — awarded to top 1% of engineers annually"
+    },
+    {
+      "title": "Best Paper — SREcon Americas",
+      "date": "2022",
+      "awarder": "USENIX — for work on webhook delivery reliability"
+    },
+    {
+      "title": "Outstanding TA Award",
+      "date": "2016",
+      "awarder": "CMU School of Computer Science"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "issuer": "Linux Foundation",
+      "date": "2022"
+    },
+    {
+      "name": "AWS Solutions Architect — Professional",
+      "issuer": "Amazon Web Services",
+      "date": "2021"
+    },
+    {
+      "name": "Google Cloud Professional Data Engineer",
+      "issuer": "Google",
+      "date": "2020"
+    }
+  ],
+  "skill_groups": [
+    {
+      "name": "Programming",
+      "skills": ["Go", "Rust", "TypeScript", "Python", "C++", "Ruby"]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "skills": ["Kubernetes", "Terraform", "AWS", "GCP", "Cloudflare", "Docker", "Prometheus"]
+    },
+    {
+      "name": "Domain Knowledge",
+      "skills": ["Distributed Systems", "Platform Engineering", "WebAssembly", "Edge Computing", "API Design"]
+    },
+    {
+      "name": "Soft Skills",
+      "skills": ["Technical Leadership", "Cross-functional Collaboration", "Mentoring", "Public Speaking"]
+    },
+    {
+      "name": "Languages",
+      "skills": ["English (Native)", "Spanish (Fluent)", "Portuguese (Conversational)"]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Reliable Webhook Delivery at Scale: Lessons from Stripe",
+      "doi": "10.5555/usenix.srecon.2022.0041"
+    },
+    {
+      "title": "Durable Objects: Consistent Stateful Serverless at the Edge",
+      "doi": "10.5555/cloudflare.blog.2021.durableobjects"
+    }
+  ],
+  "values": [
+    "Reliability over velocity",
+    "Developer experience first",
+    "Radical transparency",
+    "Continuous learning"
+  ],
+  "hobbies": [
+    "Open-source contributing",
+    "Trail running",
+    "Specialty coffee",
+    "Mechanical keyboards"
+  ],
+  "references": [
+    {
+      "name": "Asha Patel",
+      "institution": "VP Engineering, Stripe"
+    },
+    {
+      "name": "David Kim",
+      "institution": "Engineering Manager, Cloudflare"
+    }
+  ]
+}

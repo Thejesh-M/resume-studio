@@ -1,0 +1,72 @@
+{
+  "contact": {
+    "name": "Jane Doe",
+    "title": "Business Development Manager",
+    "email": "jane.doe@email.com",
+    "phone": "555-0123",
+    "linkedin": "janedoe",
+    "location": "Chicago, USA"
+  },
+  "summary": "Strategic business leader with proven expertise in market expansion and revenue growth. Skilled in building partnerships, developing client relationships, and driving organizational success through innovative solutions. Passionate about sustainable business practices and team development.",
+  "experience": [
+    {
+      "title": "Business Development Director",
+      "company": "Global Solutions Inc.",
+      "dates": "2023 — Present",
+      "bullets": [
+        "Increased regional revenue by 45% through strategic partnerships",
+        "Led team of 12 business development managers",
+        "Launched successful market entry in 3 new territories",
+        "Developed and implemented client retention program",
+        "Streamlined operational processes",
+        "Mentored junior team members"
+      ],
+      "tags": ["Strategic Planning", "Team Leadership", "Market Analysis", "Client Relations", "Revenue Growth"]
+    },
+    {
+      "title": "Senior Business Manager",
+      "company": "Innovation Partners",
+      "dates": "2020 — 2023",
+      "bullets": [
+        "Successfully managed $20M client portfolio",
+        "Developed new business vertical generating 30% growth",
+        "Led organizational change management initiatives",
+        "Established strategic partnerships with industry leaders",
+        "Implemented customer success program"
+      ],
+      "tags": ["Account Management", "Business Strategy", "Change Management", "Client Relations", "Revenue Growth"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Business School",
+      "degree": "Master of Business Administration",
+      "field": "Business Administration",
+      "dates": "2015 — 2017"
+    },
+    {
+      "institution": "State University",
+      "degree": "Bachelor of Arts",
+      "field": "International Relations",
+      "dates": "2010 — 2014"
+    }
+  ],
+  "skill_groups": [
+    {
+      "name": "Core Competencies",
+      "skills": [
+        "Strategy", "Leadership", "Negotiations", "Market Analysis",
+        "Client Relations", "Public Speaking", "Business Development",
+        "MS Word", "Data Analytics"
+      ]
+    },
+    {
+      "name": "Industries",
+      "skills": [
+        "Retail", "Finance", "Consulting", "Healthcare", "Technology",
+        "Education", "Real Estate", "Marketing", "Operations",
+        "Sales", "Human Resources", "Digital"
+      ]
+    }
+  ]
+}

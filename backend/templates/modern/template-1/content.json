@@ -1,0 +1,91 @@
+{
+  "personal": {
+    "firstname": "John",
+    "lastname": "Smith",
+    "email": "js@example.com",
+    "homepage": "https://example.com",
+    "phone": "(+1) 111-111-1111",
+    "github": "johnsmith",
+    "linkedin": "johnsmith",
+    "address": "111 Example St. Example City, EX 11111",
+    "positions": ["Software Engineer", "Software Architect", "Developer"]
+  },
+
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Example, Inc.",
+      "location": "Example City, EX",
+      "dates": "2019 - Present",
+      "url": "https://github.com/johnsmith",
+      "bullets": [
+        "Architected a microservices migration that reduced deployment time by 60% and improved system uptime to 99.95%.",
+        "Led a team of 6 engineers to deliver a real-time data pipeline processing 500K events per day using Kafka and Flink.",
+        "Championed adoption of infrastructure-as-code with Terraform, cutting cloud provisioning time from days to minutes."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Previous Company, Inc.",
+      "location": "Example City, EX",
+      "dates": "2011 - 2019",
+      "bullets": [
+        "Built and maintained a high-traffic REST API serving 2M+ requests per day, achieving sub-50ms p99 latency. Refactored the authentication layer to support OAuth 2.0 and reduced login errors by 35%. Collaborated cross-functionally with product and design to ship 12 major features over four years, consistently on schedule."
+      ]
+    },
+    {
+      "title": "Software Engineering Intern",
+      "company": "Startup Labs",
+      "location": "Example City, EX",
+      "dates": "Summer 2010",
+      "bullets": [
+        "Developed a Python automation suite that eliminated 8 hours of manual QA work per week.",
+        "Contributed bug fixes and unit tests to a React dashboard used by 300+ beta customers.",
+        "Documented 30+ internal API endpoints, reducing onboarding time for new developers."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Thread Pool C++ Library",
+      "location": "ptsouchlos/thread-pool",
+      "dates": "May 2021 - Present",
+      "role": "Designer/Developer",
+      "bullets": [
+        "Designed and implemented a thread pool library in C++ using the latest C++20 and C++23 features.",
+        "Wrote extensive documentation and unit tests for the library and published it on GitHub."
+      ]
+    },
+    {
+      "name": "Event Bus C++ Library",
+      "location": "ptsouchlos/eventbus",
+      "dates": "Sep 2019 - Present",
+      "role": "Designer/Developer",
+      "bullets": [
+        "Designed and implemented an event bus library using C++17.",
+        "Wrote detailed documentation and unit tests for the library and published it on GitHub."
+      ]
+    }
+  ],
+
+  "skills": [
+    { "category": "Programming Languages", "items": ["C++ (expert)", "Python (expert)", "Rust", "Java", "C#", "JavaScript", "TypeScript"] },
+    { "category": "Spoken Languages",      "items": ["English (native)", "Spanish (conversational)"] },
+    { "category": "Tools & Platforms",     "items": ["Git", "Docker", "Kubernetes", "AWS", "Visual Studio", "Linux"] }
+  ],
+
+  "education": [
+    {
+      "institution": "Example University",
+      "location": "Example City, EX",
+      "dates": "August 2014 - May 2019",
+      "degree": "B.S. in Computer Science",
+      "bullets": [
+        "Graduated with Honors (GPA 3.8/4.0)",
+        "President of the ACM Student Chapter",
+        "Thesis: Efficient Work-Stealing Schedulers for Heterogeneous Computing"
+      ]
+    }
+  ]
+}

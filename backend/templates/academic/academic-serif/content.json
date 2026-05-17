@@ -1,0 +1,320 @@
+{
+  "contact": {
+    "name": "Dr. Alexandra Chen",
+    "email": "a.chen@university.edu",
+    "phone": "+1-512-555-0192",
+    "linkedin": "linkedin.com/in/alexandra-chen",
+    "github": "alexchen-ai",
+    "website": "alexchen.ai",
+    "location": "Austin, TX 78701, United States"
+  },
+  "summary": "Seeking a faculty position in Machine Learning and Artificial Intelligence to leverage expertise in large-scale distributed learning systems, multimodal reasoning, and AI safety. Aiming to contribute to foundational research at the intersection of theoretical ML and real-world systems engineering in areas such as robustness, interpretability, and scalable inference.",
+
+  "experience": [
+    {
+      "company": "Google DeepMind",
+      "title": "Research Scientist Intern",
+      "dates": "Jun 2023 — Sep 2023",
+      "location": "London, UK",
+      "bullets": [
+        "Developed a distributed fine-tuning framework for 70B-parameter language models, reducing GPU memory overhead by 38% via gradient checkpointing and ZeRO-3 sharding",
+        "Implemented speculative decoding with adaptive draft models, achieving 2.4× inference throughput on TPUv4 clusters",
+        "Conducted ablation studies on chain-of-thought prompting strategies, identifying key factors driving 12-point accuracy gains on GSM8K",
+        "Presented findings at internal NeurIPS preparation workshop; work contributed to a published paper"
+      ]
+    },
+    {
+      "company": "Meta AI Research (FAIR)",
+      "title": "Research Engineer Intern",
+      "dates": "May 2022 — Aug 2022",
+      "location": "Menlo Park, CA",
+      "bullets": [
+        "Engineered a multimodal contrastive learning pipeline (image + text + audio) processing 50M samples/day on 256-GPU A100 cluster",
+        "Designed a data-efficient few-shot evaluation harness reducing benchmark annotation costs by 60%",
+        "Optimized CUDA kernels for attention computation, cutting training step time by 18% for 13B-parameter models",
+        "Co-authored internal technical report on self-supervised representation quality metrics"
+      ]
+    },
+    {
+      "company": "MIT CSAIL — Distributed ML Lab",
+      "title": "Graduate Research Assistant",
+      "dates": "Sep 2020 — May 2023",
+      "location": "Cambridge, MA",
+      "bullets": [
+        "Led research on Byzantine-fault-tolerant federated learning; published 2 papers at ICML and NeurIPS",
+        "Designed and maintained a 32-node GPU cluster testbed used by 8 research groups across 3 institutions",
+        "Mentored 4 undergraduate students, 2 of whom received NSF REU fellowships",
+        "Secured $120K in compute credits from AWS and Google Cloud for lab research projects"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Massachusetts Institute of Technology",
+      "degree": "Doctor of Philosophy",
+      "field": "Electrical Engineering and Computer Science",
+      "dates": "Sep 2019 — May 2024",
+      "location": "Cambridge, MA",
+      "gpa": "5.0/5.0",
+      "courses": [
+        "Advanced Machine Learning",
+        "Distributed Systems",
+        "Probabilistic Graphical Models",
+        "Optimization for Machine Learning",
+        "Theoretical Foundations of Deep Learning"
+      ]
+    },
+    {
+      "institution": "University of California, Berkeley",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science and Mathematics",
+      "dates": "Aug 2015 — May 2019",
+      "location": "Berkeley, CA",
+      "gpa": "3.97/4.00",
+      "courses": [
+        "Algorithms", "Linear Algebra", "Real Analysis",
+        "Operating Systems", "Computer Architecture", "Statistical Learning Theory"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "FaultlessFL: Byzantine-Robust Federated Learning Framework",
+      "url": "github.com/alexchen-ai/faultlessfl",
+      "source_code": "github.com/alexchen-ai/faultlessfl",
+      "roles": ["Principal Investigator", "Lead Engineer"],
+      "dates": "Jan 2021 — Dec 2022",
+      "highlights": [
+        "Designed a novel aggregation protocol tolerating up to 40% Byzantine workers without accuracy degradation",
+        "Open-sourced framework adopted by 3 academic labs and 1 industry partner; 800+ GitHub stars",
+        "Supports PyTorch, JAX, and custom communication backends via a plugin architecture"
+      ]
+    },
+    {
+      "name": "MultiSense: Multimodal Reasoning Benchmark",
+      "url": "multisense-benchmark.github.io",
+      "source_code": "github.com/alexchen-ai/multisense",
+      "roles": ["Co-Creator", "Maintainer"],
+      "dates": "Mar 2023 — Present",
+      "highlights": [
+        "Curated 12,000 human-annotated cross-modal reasoning instances across vision, audio, and text",
+        "Evaluated 15 state-of-the-art models; revealed 23-point gap between human and best model performance",
+        "Accepted as a NeurIPS 2023 Datasets & Benchmarks track paper"
+      ]
+    }
+  ],
+
+  "publications": [
+    {
+      "category": "J",
+      "title": "Byzantine-Robust Federated Learning via Adaptive Gradient Filtering",
+      "authors": "A. Chen, R. Patel, L. Zhao",
+      "venue": "Journal of Machine Learning Research",
+      "date": "2023",
+      "doi": "10.5555/jmlr.2023.00142",
+      "abstract": "We propose AdaFilter, a gradient-filtering aggregation rule that provides provable Byzantine robustness under heterogeneous data distributions, outperforming prior methods by up to 8% on standard benchmarks."
+    },
+    {
+      "category": "C",
+      "title": "Speculative Decoding with Adaptive Draft Selection for Large Language Models",
+      "authors": "A. Chen, S. Kim, J. Hoffmann",
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "date": "2023",
+      "doi": "10.5555/neurips.2023.41892"
+    },
+    {
+      "category": "C",
+      "title": "MultiSense: A Cross-Modal Reasoning Benchmark for Foundation Models",
+      "authors": "A. Chen, M. Torres, P. Singh, L. Zhao",
+      "venue": "NeurIPS Datasets and Benchmarks Track",
+      "date": "2023",
+      "url": "multisense-benchmark.github.io/paper"
+    },
+    {
+      "category": "C",
+      "title": "Communication-Efficient Federated Learning under Byzantine Attacks",
+      "authors": "A. Chen, R. Patel",
+      "venue": "International Conference on Machine Learning (ICML)",
+      "date": "2022",
+      "doi": "10.5555/icml.2022.19841"
+    },
+    {
+      "category": "S",
+      "title": "Theoretical Guarantees for Multimodal Contrastive Representation Learning",
+      "authors": "A. Chen, K. Park, J. Hoffmann",
+      "venue": "Journal of Artificial Intelligence Research",
+      "date": "2024"
+    },
+    {
+      "category": "P",
+      "title": "System and Method for Fault-Tolerant Gradient Aggregation in Distributed Neural Network Training",
+      "authors": "A. Chen, R. Patel, L. Zhao",
+      "venue": "US Patent Office",
+      "date": "2023",
+      "url": "patents.google.com/patent/US11892345"
+    }
+  ],
+
+  "skills": [
+    "Python", "C++", "CUDA", "JAX", "PyTorch", "TensorFlow",
+    "Rust", "Go", "SQL", "Bash",
+    "Distributed Systems", "Federated Learning", "LLM Fine-tuning",
+    "RLHF", "Contrastive Learning", "Bayesian Optimization",
+    "Linux", "Docker", "Kubernetes", "AWS", "GCP", "Slurm",
+    "Git", "LaTeX", "Typst"
+  ],
+
+  "awards": [
+    {
+      "title": "NSF Graduate Research Fellowship",
+      "awarder": "National Science Foundation",
+      "date": "2020",
+      "url": "nsfgrfp.org",
+      "summary": "Awarded to 2,000 outstanding graduate researchers annually across all STEM fields; includes 3-year stipend and tuition coverage."
+    },
+    {
+      "title": "Best Paper Award — ICML 2022",
+      "awarder": "International Conference on Machine Learning",
+      "date": "2022",
+      "url": "icml.cc/2022",
+      "summary": "Selected from 5,600 submissions for exceptional contribution to the federated learning track."
+    },
+    {
+      "title": "MIT Presidential Fellowship",
+      "awarder": "Massachusetts Institute of Technology",
+      "date": "2019",
+      "summary": "Awarded to top 5% of incoming doctoral students."
+    },
+    {
+      "title": "Valedictorian",
+      "awarder": "UC Berkeley EECS Department",
+      "date": "2019"
+    }
+  ],
+
+  "leadership": [
+    {
+      "role": "Workshop Co-organizer",
+      "organization": "NeurIPS 2023 — Federated Learning Workshop",
+      "dates": "Jan 2023 — Dec 2023",
+      "url": "fl-workshop.github.io",
+      "highlights": [
+        "Co-organized 1-day workshop attracting 400+ attendees and 60 paper submissions",
+        "Coordinated 12-member program committee and invited 5 keynote speakers from academia and industry",
+        "Secured $25,000 in sponsorship from Google, Meta, and Apple"
+      ]
+    },
+    {
+      "role": "President",
+      "organization": "MIT Graduate Student Council — EECS Chapter",
+      "dates": "Sep 2021 — May 2022",
+      "highlights": [
+        "Represented 800+ graduate students in department policy discussions",
+        "Launched peer mentoring program pairing 50 first-year students with senior PhD candidates",
+        "Organized 6 industry networking events with 200+ attendees each"
+      ]
+    }
+  ],
+
+  "volunteers": [
+    {
+      "position": "Instructor",
+      "organization": "AI4ALL — Summer Program for Underrepresented Students",
+      "dates": "Jun 2022 — Aug 2022",
+      "url": "ai-4-all.org",
+      "highlights": [
+        "Designed and taught a 4-week curriculum on ML fundamentals to 25 high school students",
+        "85% of participants reported increased interest in pursuing STEM higher education",
+        "Developed open-source course materials used by 3 other AI4ALL chapters"
+      ]
+    },
+    {
+      "position": "Reviewer",
+      "organization": "NeurIPS, ICML, ICLR, AAAI",
+      "dates": "2021 — Present",
+      "highlights": [
+        "Reviewed 30+ papers annually across top-tier ML venues",
+        "Recognized as Outstanding Reviewer at NeurIPS 2022 and ICML 2023"
+      ]
+    }
+  ],
+
+  "memberships": [
+    {
+      "organization": "Association for Computing Machinery (ACM)",
+      "id": "ACM-7823941",
+      "dates": "2019 — Present"
+    },
+    {
+      "organization": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "id": "IEEE-9134782",
+      "dates": "2020 — Present"
+    },
+    {
+      "organization": "International Machine Learning Society (IMLS)",
+      "id": "IMLS-00421",
+      "dates": "2021 — Present"
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": "AWS Certified Machine Learning — Specialty",
+      "issuer": "Amazon Web Services",
+      "date": "2023"
+    },
+    {
+      "name": "Google Cloud Professional ML Engineer",
+      "issuer": "Google Cloud",
+      "date": "2022"
+    },
+    {
+      "name": "NVIDIA Deep Learning Institute — Multi-GPU Training",
+      "issuer": "NVIDIA",
+      "date": "2021"
+    }
+  ],
+
+  "languages": [
+    "English (Native)",
+    "Mandarin Chinese (Fluent)",
+    "French (Conversational)"
+  ],
+
+  "interests": [
+    "AI Safety and Alignment",
+    "Open-source software",
+    "Science communication",
+    "Distance running",
+    "Classical piano"
+  ],
+
+  "references": [
+    {
+      "name": "Prof. Yael Tamir",
+      "title": "Associate Professor, EECS Department",
+      "institution": "Massachusetts Institute of Technology",
+      "email": "ytamir@csail.mit.edu",
+      "phone": "+1-617-555-0144",
+      "note": "PhD Thesis Advisor"
+    },
+    {
+      "name": "Dr. James Hoffmann",
+      "title": "Research Director, Gemini Team",
+      "institution": "Google DeepMind",
+      "email": "jhoffmann@deepmind.com",
+      "phone": "+44-20-7946-0391",
+      "note": "Industry Research Mentor (Internship 2023)"
+    },
+    {
+      "name": "Prof. Rania Patel",
+      "title": "Professor, School of Engineering",
+      "institution": "Stanford University",
+      "email": "rpatel@stanford.edu",
+      "phone": "+1-650-555-0278",
+      "note": "Collaborator — ICML 2022 Best Paper"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "contact": {
+    "name": "Thejesh M",
+    "email": "thejesh@example.com",
+    "phone": "+1 (555) 123-4567",
+    "linkedin": "linkedin.com/in/thejesh",
+    "location": "Austin, TX",
+    "website": "thejesh.dev"
+  },
+  "summary": "Full-stack engineer with 5+ years building scalable web applications and AI-powered products. Led development of SaaS platforms serving 50K+ users. Passionate about clean architecture and developer experience.",
+  "experience": [
+    {
+      "company": "TechCorp Inc.",
+      "title": "Senior Software Engineer",
+      "dates": "Jan 2022 — Present",
+      "bullets": [
+        "Designed and built a multi-agent AI pipeline processing 10K+ documents daily, reducing manual review time by 85%",
+        "Led migration from monolith to microservices on GCP (Cloud Run, Pub/Sub, Cloud SQL), improving deploy frequency from weekly to 20x/day",
+        "Mentored team of 4 junior engineers, establishing code review standards and CI/CD best practices"
+      ]
+    },
+    {
+      "company": "StartupXYZ",
+      "title": "Software Engineer",
+      "dates": "Jun 2019 — Dec 2021",
+      "bullets": [
+        "Built real-time analytics dashboard using React, D3.js, and WebSockets serving 5K concurrent users",
+        "Implemented credit-based billing system with Stripe integration, generating $2M ARR",
+        "Reduced API response time by 60% through Redis caching and query optimization"
+      ]
+    },
+    {
+      "company": "DevAgency",
+      "title": "Junior Developer",
+      "dates": "Aug 2017 — May 2019",
+      "bullets": [
+        "Developed 12+ client websites using React and Node.js with 98% client satisfaction rating",
+        "Created reusable component library adopted across 3 development teams"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Texas at Austin",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "dates": "2013 — 2017",
+      "gpa": "3.8"
+    }
+  ],
+  "skills": [
+    "Python", "TypeScript", "React", "Next.js", "FastAPI",
+    "PostgreSQL", "Redis", "Docker", "Kubernetes", "GCP",
+    "Firebase", "Stripe", "LangChain", "CI/CD", "System Design"
+  ],
+  "certifications": [
+    {
+      "name": "Google Cloud Professional Cloud Architect",
+      "issuer": "Google",
+      "date": "2023"
+    },
+    {
+      "name": "AWS Solutions Architect Associate",
+      "issuer": "Amazon",
+      "date": "2021"
+    }
+  ]
+}

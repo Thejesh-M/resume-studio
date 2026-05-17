@@ -1,0 +1,33 @@
+{
+  "personal": {
+    "firstname": "John",
+    "lastname": "Smith",
+    "email": "js@example.com",
+    "phone": "(+1) 111-111-1111",
+    "homepage": "https://example.com",
+    "github": "johnsmith",
+    "linkedin": "johnsmith",
+    "address": "111 Example St. Apt. 111, Example City, EX 11111",
+    "positions": ["Software Engineer", "Full Stack Developer"],
+    "custom": [
+      {
+        "text": "Youtube Channel",
+        "icon": "youtube",
+        "link": "https://youtube.com/@johnsmith"
+      }
+    ]
+  },
+  "entity": {
+    "target": "Company Recruitment Team",
+    "name": "Google, Inc.",
+    "street-address": "1600 Amphitheatre Parkway",
+    "city": "Mountain View, CA 94043"
+  },
+  "role": "Software Engineer",
+  "addressee": "Hiring Manager",
+  "paragraphs": [
+    "I am a software engineer with over eight years of experience designing and building distributed systems at scale. My career spans high-growth startups and established technology companies, where I have consistently delivered reliable, high-performance backend services. I specialise in C++, Python, and cloud-native architectures, with a strong bias toward observable, well-tested code.",
+    "Google's commitment to engineering excellence and its culture of rigorous technical review are qualities I deeply respect. I am particularly drawn to the scale challenges inherent in Google's infrastructure — building systems that serve billions of users reliably demands the kind of first-principles thinking I find most rewarding.",
+    "Over the last three years I led the re-architecture of a mission-critical event-streaming platform, reducing p99 latency from 420ms to 38ms and improving delivery guarantees from at-least-once to exactly-once semantics. I have a track record of shipping complex features on schedule, mentoring junior engineers, and leaving codebases meaningfully better than I found them. I would welcome the chance to bring that same rigour and ownership to your team."
+  ]
+}

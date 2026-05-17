@@ -58,21 +58,14 @@ You need:
 - [Typst](https://typst.app/) on your `PATH` (used to compile resumes to PDF)
 - An API key from one of the supported providers, **or** a running [Ollama](https://ollama.com/) instance for fully-offline use
 
-### 1. Clone & install
+### 1. Clone
 
 ```bash
-git clone https://github.com/<your-fork>/open-resume-studio.git
-cd open-resume-studio
-
-# Backend
-cd backend
-python -m venv .venv && source .venv/bin/activate
-pip install -e .
-
-# Frontend
-cd ../frontend
-npm install
+git clone https://github.com/Thejesh-M/resume-studio.git
+cd resume-studio
 ```
+
+> No need to install anything manually — `./run.sh` creates the Python venv, installs backend deps, and runs `npm install` on first launch.
 
 ### 2. Configure your LLM
 
